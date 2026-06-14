@@ -1,0 +1,1028 @@
+{
+  "users": {
+    "47ef69f7-5063-420c-94f7-2db993bd53f7": {
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "name": "abc",
+      "email": "ranjankum95080@gmail.com",
+      "isAdmin": false,
+      "createdAt": "2026-06-04T15:57:19.166332+00:00"
+    },
+    "71745c3c-957c-4435-9301-749b999ee3cf": {
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "name": "Admin User",
+      "email": "admin@mindwatch.ai",
+      "password": "admin123",
+      "isAdmin": true,
+      "createdAt": "2026-06-07T12:22:41.271799+00:00"
+    },
+    "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9": {
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "name": "Ranjan",
+      "email": "singhrk7633@gmail.com",
+      "isAdmin": false,
+      "createdAt": "2026-06-08T06:07:35.955063+00:00"
+    }
+  },
+  "assessments": [
+    {
+      "id": "da15e95a-a845-469c-95c4-94b3ab8f2cf6",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "sleep_score": 4.5,
+      "sleep_variance": 1.5,
+      "stress_score": 4.3,
+      "stress_variance": 1.2,
+      "walking_pct": 54,
+      "running_pct": 10,
+      "stationary_pct": 37,
+      "activity_level": 4.3,
+      "prediction": "Low Risk",
+      "confidence": 99.52,
+      "createdAt": "2026-06-04T15:59:18.370773+00:00"
+    },
+    {
+      "id": "caf57e8a-36a6-4da1-b22c-b25acd243efe",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "sleep_score": 7,
+      "sleep_variance": 1.5,
+      "stress_score": 4,
+      "stress_variance": 1.2,
+      "walking_pct": 40,
+      "running_pct": 10,
+      "stationary_pct": 50,
+      "activity_level": 6,
+      "prediction": "Low Risk",
+      "confidence": 100.0,
+      "createdAt": "2026-06-05T14:56:18.250720+00:00"
+    },
+    {
+      "id": "5bf9fe68-9d63-4a96-b0c6-44a14f316d30",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "sleep_score": 7,
+      "sleep_variance": 1.5,
+      "stress_score": 4,
+      "stress_variance": 1.2,
+      "walking_pct": 40,
+      "running_pct": 10,
+      "stationary_pct": 50,
+      "activity_level": 6,
+      "prediction": "Low Risk",
+      "confidence": 100.0,
+      "createdAt": "2026-06-05T14:56:20.872779+00:00"
+    },
+    {
+      "id": "71a5f1dc-ea5c-43e8-94c4-50dc4d09bf0a",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "sleep_score": 4.6,
+      "sleep_variance": 1.4,
+      "stress_score": 4,
+      "stress_variance": 1,
+      "walking_pct": 40,
+      "running_pct": 18,
+      "stationary_pct": 44,
+      "activity_level": 6,
+      "prediction": "Low Risk",
+      "confidence": 99.64,
+      "createdAt": "2026-06-08T08:44:16.892349+00:00"
+    },
+    {
+      "id": "f7c1410f-fed4-4ec0-a9dc-2d566a119b8b",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "sleep_score": 6.8,
+      "sleep_variance": 1.5,
+      "stress_score": 4,
+      "stress_variance": 1.2,
+      "walking_pct": 40,
+      "running_pct": 10,
+      "stationary_pct": 50,
+      "activity_level": 6,
+      "prediction": "Low Risk",
+      "confidence": 100.0,
+      "createdAt": "2026-06-11T06:35:27.257308+00:00"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "0f85cfd7-1fe2-4968-8694-1c63a0842cf9",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Maintain a consistent sleep schedule (7\u20139 hours).",
+      "createdAt": "2026-06-04T15:59:18.376035+00:00"
+    },
+    {
+      "id": "74fc84d3-7bc0-4c93-a1a4-22c896b562d3",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Limit screen time 1 hour before bed.",
+      "createdAt": "2026-06-04T15:59:18.376055+00:00"
+    },
+    {
+      "id": "478e0ac4-b2ee-4d30-aac1-3122f64085de",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Keep your bedroom cool, dark, and quiet.",
+      "createdAt": "2026-06-04T15:59:18.376060+00:00"
+    },
+    {
+      "id": "3488162c-c864-4fa6-a723-14469da384bb",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Practice 10 minutes of mindfulness daily.",
+      "createdAt": "2026-06-04T15:59:18.376064+00:00"
+    },
+    {
+      "id": "14e3dde3-7c0e-4bf8-9697-4030d8c60e74",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take short breaks during work or study.",
+      "createdAt": "2026-06-04T15:59:18.376067+00:00"
+    },
+    {
+      "id": "9e0cfe86-857f-4a51-8604-e554a196ff62",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Stay connected with friends and family.",
+      "createdAt": "2026-06-04T15:59:18.376071+00:00"
+    },
+    {
+      "id": "401ffe07-8c4d-41f1-a973-adf278cbdb45",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Aim for 150 minutes of moderate activity per week.",
+      "createdAt": "2026-06-04T15:59:18.376074+00:00"
+    },
+    {
+      "id": "a84bf6b4-6c3d-4ed5-bd6d-7667b2516de8",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Include a mix of walking, running, and light strength training.",
+      "createdAt": "2026-06-04T15:59:18.376078+00:00"
+    },
+    {
+      "id": "49f5502c-b682-40a5-b6bd-7156185548bd",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take a 5-minute walk every hour if sedentary.",
+      "createdAt": "2026-06-04T15:59:18.376081+00:00"
+    },
+    {
+      "id": "be80b29a-17ba-4b1b-9ffc-06ed4f321c32",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Journal gratitude three times per week.",
+      "createdAt": "2026-06-04T15:59:18.376085+00:00"
+    },
+    {
+      "id": "197bd778-e1a1-40b8-aafc-d1dc628bd441",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Continue healthy routines that support your mood.",
+      "createdAt": "2026-06-04T15:59:18.376088+00:00"
+    },
+    {
+      "id": "58322709-7b2a-47f5-a910-8f3b14e4bfb0",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Schedule periodic self-check-ins to track trends.",
+      "createdAt": "2026-06-04T15:59:18.376091+00:00"
+    },
+    {
+      "id": "5ee701ce-69b5-4e4b-9acd-4eb1bf3ec3c4",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Maintain a consistent sleep schedule (7\u20139 hours).",
+      "createdAt": "2026-06-05T14:56:18.266346+00:00"
+    },
+    {
+      "id": "054b7e49-8164-4d4d-a495-1f07042489c1",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Limit screen time 1 hour before bed.",
+      "createdAt": "2026-06-05T14:56:18.266363+00:00"
+    },
+    {
+      "id": "ac98268c-a489-4c02-ae90-4dfb79230f0a",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Keep your bedroom cool, dark, and quiet.",
+      "createdAt": "2026-06-05T14:56:18.266370+00:00"
+    },
+    {
+      "id": "2de73626-2912-4a63-b6d3-77453aac6384",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Practice 10 minutes of mindfulness daily.",
+      "createdAt": "2026-06-05T14:56:18.266374+00:00"
+    },
+    {
+      "id": "287a260c-b454-469b-8b38-c09d646b2601",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take short breaks during work or study.",
+      "createdAt": "2026-06-05T14:56:18.266662+00:00"
+    },
+    {
+      "id": "a7324e84-6ab5-45c7-95e5-171781aa4f40",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Stay connected with friends and family.",
+      "createdAt": "2026-06-05T14:56:18.266672+00:00"
+    },
+    {
+      "id": "91d61660-93eb-40cf-9443-15bfe9af6ffe",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Aim for 150 minutes of moderate activity per week.",
+      "createdAt": "2026-06-05T14:56:18.266994+00:00"
+    },
+    {
+      "id": "a28a6082-273f-44c1-bfeb-739c65726e05",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Include a mix of walking, running, and light strength training.",
+      "createdAt": "2026-06-05T14:56:18.267001+00:00"
+    },
+    {
+      "id": "757aef8f-9d7a-4cae-a7ac-8516379c78bd",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take a 5-minute walk every hour if sedentary.",
+      "createdAt": "2026-06-05T14:56:18.267297+00:00"
+    },
+    {
+      "id": "d20c79dc-bd28-49bb-9261-000f546cb520",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Journal gratitude three times per week.",
+      "createdAt": "2026-06-05T14:56:18.267305+00:00"
+    },
+    {
+      "id": "4a8fa66d-ac5f-4a98-9352-0c9495f5cc75",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Continue healthy routines that support your mood.",
+      "createdAt": "2026-06-05T14:56:18.267309+00:00"
+    },
+    {
+      "id": "e9d59b2d-b8ca-4080-bd8e-d8dfaa5f263a",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Schedule periodic self-check-ins to track trends.",
+      "createdAt": "2026-06-05T14:56:18.267615+00:00"
+    },
+    {
+      "id": "c2359982-b80f-4e60-901f-f430c522ca0a",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Maintain a consistent sleep schedule (7\u20139 hours).",
+      "createdAt": "2026-06-05T14:56:20.877524+00:00"
+    },
+    {
+      "id": "ffd45733-4eab-443c-b0d3-00b2b4c8e856",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Limit screen time 1 hour before bed.",
+      "createdAt": "2026-06-05T14:56:20.877534+00:00"
+    },
+    {
+      "id": "a6d376b9-fbfa-43f5-abdb-b7f3926f84ef",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Keep your bedroom cool, dark, and quiet.",
+      "createdAt": "2026-06-05T14:56:20.882561+00:00"
+    },
+    {
+      "id": "06deda86-a968-48cc-9d67-ba834cab3db0",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Practice 10 minutes of mindfulness daily.",
+      "createdAt": "2026-06-05T14:56:20.882568+00:00"
+    },
+    {
+      "id": "4a401daa-cfb1-472d-9ab5-deaa133e206e",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take short breaks during work or study.",
+      "createdAt": "2026-06-05T14:56:20.882572+00:00"
+    },
+    {
+      "id": "3df84045-1288-4f72-91e4-e95b883089c1",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Stay connected with friends and family.",
+      "createdAt": "2026-06-05T14:56:20.882576+00:00"
+    },
+    {
+      "id": "fcc584b8-41e9-4c72-a501-9399a41ae2e3",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Aim for 150 minutes of moderate activity per week.",
+      "createdAt": "2026-06-05T14:56:20.882580+00:00"
+    },
+    {
+      "id": "d026dfbd-03a5-4de0-a2eb-733a5613fcad",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Include a mix of walking, running, and light strength training.",
+      "createdAt": "2026-06-05T14:56:20.882583+00:00"
+    },
+    {
+      "id": "9670bab5-da92-4b68-ac4c-d1a056e04bf6",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take a 5-minute walk every hour if sedentary.",
+      "createdAt": "2026-06-05T14:56:20.882587+00:00"
+    },
+    {
+      "id": "ee25c534-6900-4365-a42a-b9ccd08d4127",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Journal gratitude three times per week.",
+      "createdAt": "2026-06-05T14:56:20.886906+00:00"
+    },
+    {
+      "id": "13659b5f-6960-439f-af67-5ba6a6756afc",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Continue healthy routines that support your mood.",
+      "createdAt": "2026-06-05T14:56:20.886924+00:00"
+    },
+    {
+      "id": "a02a4927-f636-4ae0-8bc9-a169976c644d",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Schedule periodic self-check-ins to track trends.",
+      "createdAt": "2026-06-05T14:56:20.886928+00:00"
+    },
+    {
+      "id": "9ec652fe-1a16-48b6-a551-38feeb9f7800",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Maintain a consistent sleep schedule (7\u20139 hours).",
+      "createdAt": "2026-06-08T08:44:16.894640+00:00"
+    },
+    {
+      "id": "2172ca20-9dba-497b-bb82-19808a081c39",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Limit screen time 1 hour before bed.",
+      "createdAt": "2026-06-08T08:44:16.894708+00:00"
+    },
+    {
+      "id": "a725febb-061a-4e4d-afa8-4b3dbc67d76c",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Keep your bedroom cool, dark, and quiet.",
+      "createdAt": "2026-06-08T08:44:16.894734+00:00"
+    },
+    {
+      "id": "fd1d89be-6770-495c-bc35-fc4e6299a1d1",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Practice 10 minutes of mindfulness daily.",
+      "createdAt": "2026-06-08T08:44:16.894744+00:00"
+    },
+    {
+      "id": "643707ad-e625-44ee-924a-d0217b4414cc",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take short breaks during work or study.",
+      "createdAt": "2026-06-08T08:44:16.894748+00:00"
+    },
+    {
+      "id": "8dc749ef-ec53-464d-8b47-d336465a83f8",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Stay connected with friends and family.",
+      "createdAt": "2026-06-08T08:44:16.894752+00:00"
+    },
+    {
+      "id": "89a05229-36fe-491c-b569-dc0ac990c059",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Aim for 150 minutes of moderate activity per week.",
+      "createdAt": "2026-06-08T08:44:16.894756+00:00"
+    },
+    {
+      "id": "d052f53a-8285-4be7-afe8-57a1e1789a38",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Include a mix of walking, running, and light strength training.",
+      "createdAt": "2026-06-08T08:44:16.894760+00:00"
+    },
+    {
+      "id": "52d310f4-90b1-4745-a6be-dbba5d7ccf07",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take a 5-minute walk every hour if sedentary.",
+      "createdAt": "2026-06-08T08:44:16.894763+00:00"
+    },
+    {
+      "id": "c7988d81-3260-4550-b4a0-8fc8d31c2ec1",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Journal gratitude three times per week.",
+      "createdAt": "2026-06-08T08:44:16.894767+00:00"
+    },
+    {
+      "id": "ca409f92-c59e-4d1e-a82e-7a8a22a04e9e",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Continue healthy routines that support your mood.",
+      "createdAt": "2026-06-08T08:44:16.894770+00:00"
+    },
+    {
+      "id": "14bafc07-5e06-4e14-bf40-fd92fa7069dd",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Schedule periodic self-check-ins to track trends.",
+      "createdAt": "2026-06-08T08:44:16.894774+00:00"
+    },
+    {
+      "id": "e7777756-a0c1-4e93-bbb0-2449d79985ba",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Maintain a consistent sleep schedule (7\u20139 hours).",
+      "createdAt": "2026-06-11T06:35:27.259496+00:00"
+    },
+    {
+      "id": "ef4642c9-e991-45bc-b479-089e16886543",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Limit screen time 1 hour before bed.",
+      "createdAt": "2026-06-11T06:35:27.259510+00:00"
+    },
+    {
+      "id": "99a8c60f-c187-4f51-b53e-e96486a7e614",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Keep your bedroom cool, dark, and quiet.",
+      "createdAt": "2026-06-11T06:35:27.259515+00:00"
+    },
+    {
+      "id": "1738b299-648d-4853-9197-62776bbea502",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Practice 10 minutes of mindfulness daily.",
+      "createdAt": "2026-06-11T06:35:27.259519+00:00"
+    },
+    {
+      "id": "feb6357d-a7f3-4921-a86c-05cd9cae6cff",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take short breaks during work or study.",
+      "createdAt": "2026-06-11T06:35:27.259523+00:00"
+    },
+    {
+      "id": "3112755c-8b5d-4060-b9a2-083d1dd2c3af",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Stay connected with friends and family.",
+      "createdAt": "2026-06-11T06:35:27.259527+00:00"
+    },
+    {
+      "id": "be52e34e-664c-4fe0-87ea-d502b30c6d4d",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Aim for 150 minutes of moderate activity per week.",
+      "createdAt": "2026-06-11T06:35:27.259531+00:00"
+    },
+    {
+      "id": "be32c9c3-cbb4-4e55-82b1-9c92e0ce7a26",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Include a mix of walking, running, and light strength training.",
+      "createdAt": "2026-06-11T06:35:27.259535+00:00"
+    },
+    {
+      "id": "5eb6ec3f-7ad0-431e-8c00-9adc20fbde8b",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Take a 5-minute walk every hour if sedentary.",
+      "createdAt": "2026-06-11T06:35:27.259538+00:00"
+    },
+    {
+      "id": "28a554e2-024d-465f-ba82-b481b91fffbf",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Journal gratitude three times per week.",
+      "createdAt": "2026-06-11T06:35:27.259542+00:00"
+    },
+    {
+      "id": "784d450d-107a-44e4-adba-9050c9e09246",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Continue healthy routines that support your mood.",
+      "createdAt": "2026-06-11T06:35:27.259545+00:00"
+    },
+    {
+      "id": "c75fe744-03ca-4eb4-af6e-2030f47ac8dc",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "risk_level": "Low Risk",
+      "recommendation_text": "Schedule periodic self-check-ins to track trends.",
+      "createdAt": "2026-06-11T06:35:27.259549+00:00"
+    }
+  ],
+  "moods": [
+    {
+      "id": "611c0e82-a524-4ad8-b3a4-36cac19095c5",
+      "uid": "425bb714-335a-4937-92d4-444ff3888abc",
+      "mood_score": 8,
+      "energy": 7,
+      "note": "Feeling good",
+      "createdAt": "2026-06-04T15:17:26.198498+00:00"
+    },
+    {
+      "id": "394542ec-479c-4ddc-90ae-d7f7cfb4ec59",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-04T15:18:40.359128+00:00"
+    },
+    {
+      "id": "2a8b033f-3389-4d06-89bc-5ae4c18af3e1",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 6,
+      "note": "",
+      "createdAt": "2026-06-04T15:24:56.588425+00:00"
+    },
+    {
+      "id": "e37256a3-58fa-41ee-8794-ac962ad89613",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 4,
+      "note": "",
+      "createdAt": "2026-06-04T15:25:00.685137+00:00"
+    },
+    {
+      "id": "c49e025c-05a0-4bce-9bd4-e8cf1edf9d23",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-04T15:27:49.239124+00:00"
+    },
+    {
+      "id": "fcc2c1fe-868b-454e-842f-93178f28c1a3",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-04T15:30:18.927164+00:00"
+    },
+    {
+      "id": "11179bfd-f555-47e7-914c-7d6ebdb6b64c",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-04T15:35:41.770631+00:00"
+    },
+    {
+      "id": "5fb09407-8b7d-467a-973a-b4c45e77d58c",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "mood_score": 6,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-04T15:35:44.242710+00:00"
+    },
+    {
+      "id": "8705b3b8-2f0d-409f-961f-dac78b3d2897",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "mood_score": 6,
+      "energy": 8,
+      "note": "",
+      "createdAt": "2026-06-04T15:57:35.933106+00:00"
+    },
+    {
+      "id": "248198ea-ef1e-4c7b-9162-3e5fed0d31ee",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "mood_score": 6,
+      "energy": 8,
+      "note": "",
+      "createdAt": "2026-06-04T15:57:37.900084+00:00"
+    },
+    {
+      "id": "c10d3e1d-84b3-49ce-a62f-e973feb645df",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "mood_score": 10,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-08T11:58:11.534482+00:00"
+    },
+    {
+      "id": "a1fa2311-2ae5-42bf-b506-2b87f805b335",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "mood_score": 7,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-08T11:58:19.979559+00:00"
+    },
+    {
+      "id": "41f4a4da-8b4d-4d6f-992c-78dd0352dede",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "mood_score": 7,
+      "energy": 7,
+      "note": "",
+      "createdAt": "2026-06-08T11:58:25.747609+00:00"
+    },
+    {
+      "id": "c95488c4-ecad-4388-841d-72684a7470fe",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "mood_score": 6,
+      "energy": 6,
+      "note": "",
+      "createdAt": "2026-06-11T06:35:58.185016+00:00"
+    },
+    {
+      "id": "4879f856-38c2-4ab7-89c0-5579946c362a",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "mood_score": 6,
+      "energy": 5,
+      "note": "",
+      "createdAt": "2026-06-11T06:36:42.582265+00:00"
+    },
+    {
+      "id": "4ff2d8d8-5a7a-487b-87ac-38ff3eeae0a7",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "mood_score": 6,
+      "energy": 3,
+      "note": "",
+      "createdAt": "2026-06-11T06:36:50.768450+00:00"
+    },
+    {
+      "id": "78581af0-c5ef-4c18-945d-faa8d1b03327",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "mood_score": 4,
+      "energy": 3,
+      "note": "",
+      "createdAt": "2026-06-11T06:36:53.341214+00:00"
+    }
+  ],
+  "goals": [
+    {
+      "id": "6ae40401-d2c8-4aa6-b85c-0d3970952994",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "10",
+      "category": "general",
+      "target": 7,
+      "progress": 0,
+      "unit": "days",
+      "createdAt": "2026-06-04T15:26:20.200308+00:00"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "f65fdb69-67c4-4481-b1e4-8cc0929fdd80",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-11T06:36:50.769684+00:00"
+    },
+    {
+      "id": "85a10431-452a-40f8-a937-ba94bd09c20a",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-11T06:36:42.583752+00:00"
+    },
+    {
+      "id": "2fd0357d-12de-4eae-8d39-68f1fbac01d4",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-11T06:35:58.186138+00:00"
+    },
+    {
+      "id": "534961f8-9a2b-4c65-b2ff-2db474f250b7",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (100.0% confidence)",
+      "read": false,
+      "createdAt": "2026-06-11T06:35:27.261595+00:00"
+    },
+    {
+      "id": "605a1970-e877-4af8-886a-7d59c116058c",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: Thriving",
+      "read": false,
+      "createdAt": "2026-06-11T06:35:27.260958+00:00"
+    },
+    {
+      "id": "b7fc22f0-39be-4c18-8e34-6e6ad9599fb1",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: First Step",
+      "read": false,
+      "createdAt": "2026-06-11T06:35:27.260296+00:00"
+    },
+    {
+      "id": "12879b85-7535-431e-8b9d-5ee41b7c16e7",
+      "uid": "71745c3c-957c-4435-9301-749b999ee3cf",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: AI Companion",
+      "read": false,
+      "createdAt": "2026-06-10T18:09:23.753744+00:00"
+    },
+    {
+      "id": "38d64c47-0cab-4d8b-ac14-c86a402186e8",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Mood logged",
+      "message": "You logged mood 7/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-08T11:58:25.749879+00:00"
+    },
+    {
+      "id": "a331aa9e-a649-434e-bde2-6d7645de1177",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Mood logged",
+      "message": "You logged mood 7/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-08T11:58:19.989217+00:00"
+    },
+    {
+      "id": "7740f870-2e01-4a04-a46a-7582a45eae60",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Mood logged",
+      "message": "You logged mood 10/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-08T11:58:11.554319+00:00"
+    },
+    {
+      "id": "8edec0b4-c937-4b7a-adc6-a9b50e8949bb",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (99.64% confidence)",
+      "read": false,
+      "createdAt": "2026-06-08T08:44:16.898825+00:00"
+    },
+    {
+      "id": "30491684-742f-47c6-a110-7f12157625c2",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: Thriving",
+      "read": false,
+      "createdAt": "2026-06-08T08:44:16.897884+00:00"
+    },
+    {
+      "id": "57d6b4ed-3328-4b84-9cb6-1896b2acdf62",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: First Step",
+      "read": false,
+      "createdAt": "2026-06-08T08:44:16.896090+00:00"
+    },
+    {
+      "id": "0ffb8d96-f64c-4000-bd67-9dfa737d5830",
+      "uid": "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: AI Companion",
+      "read": false,
+      "createdAt": "2026-06-08T08:10:15.218956+00:00"
+    },
+    {
+      "id": "c76defd0-740d-4169-9345-1d88e5c034e7",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (100.0% confidence)",
+      "read": false,
+      "createdAt": "2026-06-05T14:56:20.897092+00:00"
+    },
+    {
+      "id": "2da5b9aa-82b9-4376-9e5a-d02ef5352e56",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (100.0% confidence)",
+      "read": false,
+      "createdAt": "2026-06-05T14:56:18.272837+00:00"
+    },
+    {
+      "id": "885ec4fd-1c1c-4823-ad1e-09d4b8e5c561",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: AI Companion",
+      "read": false,
+      "createdAt": "2026-06-04T15:59:31.203996+00:00"
+    },
+    {
+      "id": "9852bf46-4e5f-45ae-91de-65b105e49c35",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (99.52% confidence)",
+      "read": false,
+      "createdAt": "2026-06-04T15:59:18.378329+00:00"
+    },
+    {
+      "id": "5f8e24e1-0ba2-420a-ba77-2ca947fa6c10",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: Thriving",
+      "read": false,
+      "createdAt": "2026-06-04T15:59:18.377662+00:00"
+    },
+    {
+      "id": "2887e2c2-97bc-4b3f-9607-3d86149eac01",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: First Step",
+      "read": false,
+      "createdAt": "2026-06-04T15:59:18.376978+00:00"
+    },
+    {
+      "id": "5943adab-db0b-498a-8b6a-a6dc8793f59f",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:57:37.904039+00:00"
+    },
+    {
+      "id": "414966e5-0862-459b-a69e-9ada4ce89b5e",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:57:35.934944+00:00"
+    },
+    {
+      "id": "1bcc2e71-463c-4f2f-8210-f73ead494c17",
+      "uid": "425bb714-335a-4937-92d4-444ff3888abc",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: AI Companion",
+      "read": false,
+      "createdAt": "2026-06-04T15:41:31.458868+00:00"
+    },
+    {
+      "id": "8b96083d-dc7c-4327-8787-ec76cc7d428f",
+      "uid": "425bb714-335a-4937-92d4-444ff3888abc",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (100.0% confidence)",
+      "read": false,
+      "createdAt": "2026-06-04T15:41:21.335483+00:00"
+    },
+    {
+      "id": "c80433fb-3cc7-4a44-b3bf-c5023d87cca3",
+      "uid": "425bb714-335a-4937-92d4-444ff3888abc",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: Thriving",
+      "read": false,
+      "createdAt": "2026-06-04T15:41:21.334969+00:00"
+    },
+    {
+      "id": "0985f116-efd3-4adb-8cda-23be92f738e4",
+      "uid": "425bb714-335a-4937-92d4-444ff3888abc",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: First Step",
+      "read": false,
+      "createdAt": "2026-06-04T15:41:21.334386+00:00"
+    },
+    {
+      "id": "7344b343-6831-4250-8a13-1fb8f107eaf1",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:35:44.244470+00:00"
+    },
+    {
+      "id": "a8c6103c-8f25-47f8-8a92-ff4e15af7692",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:35:41.773807+00:00"
+    },
+    {
+      "id": "854d77b6-de16-4702-af8f-77f69eb59e8f",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:30:18.930836+00:00"
+    },
+    {
+      "id": "b665fd16-383c-4f7f-9f1f-a33e83051305",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Assessment complete",
+      "message": "Your risk level: Low Risk (100.0% confidence)",
+      "read": false,
+      "createdAt": "2026-06-04T15:29:56.949442+00:00"
+    },
+    {
+      "id": "5c95b8dd-3d04-4591-9a79-2ae18d91791e",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:27:49.240352+00:00"
+    },
+    {
+      "id": "abc9f2eb-1074-42c6-b78d-6dc774502ab9",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:25:00.685964+00:00"
+    },
+    {
+      "id": "001ddcee-1b95-43db-8e95-d95a6cbb157c",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:24:56.594489+00:00"
+    },
+    {
+      "id": "5d550581-b56f-4106-a4b0-dd86859303e6",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: AI Companion",
+      "read": false,
+      "createdAt": "2026-06-04T15:18:53.346690+00:00"
+    },
+    {
+      "id": "dd386c14-9337-46f2-86b3-0e99b9dcb08a",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Mood logged",
+      "message": "You logged mood 6/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:18:40.362926+00:00"
+    },
+    {
+      "id": "5b43c085-8494-4588-95b8-2875bf8a70da",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: Thriving",
+      "read": false,
+      "createdAt": "2026-06-04T15:18:40.361800+00:00"
+    },
+    {
+      "id": "778ad934-11a4-4296-b0da-0b7027fe725a",
+      "uid": "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958",
+      "title": "Achievement Unlocked!",
+      "message": "You earned: First Step",
+      "read": false,
+      "createdAt": "2026-06-04T15:18:40.360994+00:00"
+    },
+    {
+      "id": "5342c8fa-3f81-46f3-8891-c240754924ba",
+      "uid": "425bb714-335a-4937-92d4-444ff3888abc",
+      "title": "Mood logged",
+      "message": "You logged mood 8/10. Keep tracking daily!",
+      "read": false,
+      "createdAt": "2026-06-04T15:17:26.199183+00:00"
+    }
+  ],
+  "settings": {
+    "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958": {
+      "dailyReminder": true,
+      "reminderTime": "09:00",
+      "emailAlerts": false,
+      "shareAnalytics": false,
+      "crisisQuickAccess": true
+    }
+  },
+  "achievements": {
+    "e70fdc6d-5dac-4ed5-bb8c-fd8026f7a958": [
+      "first_assessment",
+      "low_risk",
+      "chat_buddy"
+    ],
+    "425bb714-335a-4937-92d4-444ff3888abc": [
+      "first_assessment",
+      "low_risk",
+      "chat_buddy"
+    ],
+    "47ef69f7-5063-420c-94f7-2db993bd53f7": [
+      "first_assessment",
+      "low_risk",
+      "chat_buddy"
+    ],
+    "bb6a6d61-3aa1-4006-b5b6-2acfd866b6b9": [
+      "chat_buddy",
+      "first_assessment",
+      "low_risk"
+    ],
+    "71745c3c-957c-4435-9301-749b999ee3cf": [
+      "chat_buddy",
+      "first_assessment",
+      "low_risk"
+    ]
+  },
+  "journals": [],
+  "sleep_logs": [
+    {
+      "id": "934b04a1-cebe-4a0d-9bc7-a4c4db6c8667",
+      "uid": "47ef69f7-5063-420c-94f7-2db993bd53f7",
+      "hours": 8.0,
+      "quality": 4,
+      "note": "",
+      "createdAt": "2026-06-04T15:58:17.050779+00:00"
+    }
+  ]
+}
