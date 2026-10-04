@@ -203,7 +203,7 @@ Add screenshots of:
 
 ## 👨‍💻 Author
 
-**Shivam Kumar**
+Ranjan Kumar
 B.Tech Computer Science and Engineering
 Galgotias University
 
